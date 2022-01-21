@@ -2,6 +2,6 @@
 from pydantic import BaseModel
 
 class DataForm(BaseModel):
-    tickers : str
+    ticker : str
     periods: str
     intervals : str
